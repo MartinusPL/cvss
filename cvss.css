@@ -23,7 +23,7 @@
     width: 40px;
     height: 40px;
     display: inline-block;
-    background: url("cvssicons.png") 0 0 no-repeat;
+    background: url("/img/cvssicons.png") 0 0 no-repeat;
     vertical-align: middle;
     margin-right: 4px;
 }
@@ -139,7 +139,7 @@
     transition: background-color 0.3s ease-in-out;
 }
 .cvssjs dt {
-    color: #EEEEEE;
+    color: #ffffff;
     padding: 5px;
     font-size: 60%;
     font-weight: normal;
@@ -147,7 +147,7 @@
     letter-spacing: 1px;
 }
 .cvssjs dl:hover, .cvssjs dl:focus {
-    background-color: #676a60;
+    background-color: #428bca;
     box-shadow: 0px 0px 5px #aaa;
 }
 .cvssjs dl:hover dt, .cvssjs dl:focus dt {
