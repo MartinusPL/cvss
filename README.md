@@ -1,15 +1,15 @@
-#CVSSjs
+#CVSSjs 2
 
-CVSS (Common Vulnerability Scoring System) Calculator
+CVSS Calculator
 
-<a href="http://chandanbn.github.io/cvss">Standalone Calculator</a>
+forked from chandanbn CVSSjs
 
-CVSSjs Version 0.2 beta
+CVSSjs Version 2 
 
 Usage:
 
     //include the cvss.js script 
-    <script src="http://chandanbn.github.io/cvss/cvss.js"></script>
+    <script src="https://cdn.rawgit.com/dedins/cvss/master/cvss.js"></script>
     
     craete an HTML element with an id for eg.,
     <div id="cvssboard"/>
@@ -34,7 +34,8 @@ Usage:
     c.get() returns an object like:
       {
         score: 4.3,
-        vector: 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:L'
+        vector: 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:L',
+        severity: 'Low'
       }
 
 
