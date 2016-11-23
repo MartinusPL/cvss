@@ -48,6 +48,7 @@ Usage:
     {
         score: 4.3,
         vector: 'AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:L'
+        severity: 'Low'
     }
     
 */
@@ -402,7 +403,8 @@ CVSS.prototype.calculate = function () {
 CVSS.prototype.get = function() {
     return {
         score: this.score.innerHTML,
-        vector: this.vector.innerHTML
+        vector: this.vector.innerHTML,
+        severity: this.severity.innerHTML.split('<')[0]
     }
 };
 
